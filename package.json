@@ -1,0 +1,28 @@
+{
+  "name": "enumerate-array",
+  "version": "1.0.0",
+  "description": "Clones an Array and wraps it in a Java-like Enumeration interface.",
+  "main": "enumerate-array.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Pilatch/enumerate-array.git"
+  },
+  "scripts": {
+    "test": "mocha tst/spec"
+  },
+  "keywords": [
+    "enumerate",
+    "enumeration",
+    "Enumeration-interface",
+    "array",
+    "list",
+    "hasNext",
+    "hasMoreElements"
+  ],
+  "author": "Ethan B Martin <ethan@pilatch.com> (http://pilatch.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
