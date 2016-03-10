@@ -19,18 +19,18 @@ That enumeration has the following methods:
 Here we loop through an array, while-style.
 
     var enumerateArray = require("enumerate-array")
-    var greenIceCreamsArray = ["pistachio", "mink chocolate chip", "green tea"]
+    var greenIceCreamsArray = ["pistachio", "mint chocolate chip", "green tea"]
     var greenIceCreamsEnumeration = enumerateArray(greenIceCreamsArray)
 
     while ( greenIceCreamsEnumeration.hasNext() ) {
       console.log( greenIceCreamsEnumeration.next() )
     }
     // -> "pistachio"
-    // -> "mink chocolate chip"
+    // -> "mint chocolate chip"
     // -> "green tea"
 
     console.log(greenIceCreamsArray) // the original array is unchanged
-    // -> [ 'pistachio', 'mink chocolate chip', 'green tea' ]
+    // -> [ "pistachio", "mint chocolate chip", "green tea" ]
 
 We can also get a copy of the enumeration as an array, minus the elements we used.
 
